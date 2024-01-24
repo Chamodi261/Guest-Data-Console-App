@@ -1,0 +1,22 @@
+{
+  "name": "guest-data-console-app",
+  "version": "1.0.0",
+  "description": "Guest Data",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Chamodi Dilhara",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "yargs": "^17.7.2"
+  }
+}
